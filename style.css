@@ -195,11 +195,10 @@ header {
 }
 
 .third_bottom {
-    height: 150px;
     width: 100%;
-    padding: 24px 0;
-    margin: 0 auto;
-    background-color: lightyellow;
+    padding: 40px 0;
+    margin: 20px auto;
+    background-color: white;
     position: absolute;
     bottom: 0;
     display: block;
@@ -225,7 +224,7 @@ header {
 
 .third_bottom_right {
     float: right;
-    padding-right: 200px;
+    padding-right: 20%;
 }
 
 .third_bottom_right p {
@@ -235,4 +234,29 @@ header {
 
 .third_bottom_right small {
     font-size: 10px;
+}
+
+.one,.half {
+    border: 1px solid black;
+}
+
+.smart_mobility {
+    margin-top: 50px;
+    background-image: url("https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg");
+    background-size: cover;
+    height: 500px;
+}
+
+.column_app {
+    margin-top: 50px;
+    background-image: url("https://helbiz.com/asset/pages/newhome/images/HelbiZAPP.png");
+    background-size: cover;
+    height: 600px;
+}
+
+.column_find_us {
+    margin-top: 50px;
+    background-image: url("https://helbiz.com/asset/pages/newhome/images/Cities-1500.jpg");
+    background-size: cover;
+    height: 600px;
 }
