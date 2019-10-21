@@ -196,7 +196,7 @@ header {
 
 .third_bottom {
     height: 150px;
-    width: 90%;
+    width: 100%;
     padding: 24px 0;
     margin: 0 auto;
     background-color: lightyellow;
@@ -205,15 +205,34 @@ header {
     display: block;
 }
 
-.third_bottom_left {
-    float: left;
+.third_bottom_cont {
+    width: 90%;
+    margin: 0 auto;
 }
 
-.smartphone img{
+.third_bottom_left h3{
+    float: left;
+    font-size: 22px;
+}
+
+.smartphone>img{
     height: 500px;
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
 }
 
 .third_bottom_right {
     float: right;
+    padding-right: 200px;
+}
+
+.third_bottom_right p {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.third_bottom_right small {
+    font-size: 10px;
 }
