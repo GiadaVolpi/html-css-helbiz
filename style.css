@@ -206,7 +206,7 @@ header {
 }
 
 .third_bottom_cont {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -241,10 +241,6 @@ header {
     padding-top: 50px;
 }
 
-.one,.half {
-    border: 1px solid black;
-}
-
 .smart_mobility {
     margin: 20px 0;
     background-image: url("https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg");
@@ -258,10 +254,17 @@ header {
     margin: 20px 0;
     background-image: linear-gradient(#405468, #293744);
     min-height: 500px;
+    position: relative;
 }
 
 .column_app {
     height: 300px;
+}
+
+img.column_app {
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
 }
 
 .column_find_us {
@@ -299,4 +302,49 @@ header {
 
 .column_app_text span, .column_find_us_text span {
     font-size: 20px;
+}
+
+#instagram {
+    background-image: url("https://helbiz.com/asset/pages/newhome/images/Social-Banner.jpg");
+    margin: 20px 0 40px 0;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.instagram_content {
+    width: 25%;
+    height: 50%;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.instagram_text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.instagram_text h2 {
+    font-size: 30px;
+}
+
+i.fab {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+i.fab:not(:last-child) {
+    padding-right: 25px;
+}
+
+footer {
+    background-color: black;
+    color: white;
 }
