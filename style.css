@@ -17,7 +17,7 @@
 }
 
 .main-container {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -28,6 +28,7 @@
 
 .half.column  {
     width: 50%;
+    text-align: center;
 }
 
 .one.column  {
@@ -151,30 +152,30 @@ header {
 
 .product {
     padding: 10px;
-    text-align: center;
     background-color: #fafafa;
 }
 
 .product>h2 {
-    text-transform: uppercase;
     font-size: 30px;
     margin-top: 40px;
+    text-transform: uppercase;
 }
 
 .product span {
     font-weight: 400;
-    text-transform: uppercase;
     font-size: 30px;
+    text-transform: uppercase;
 }
+
 .product>p {
     padding: 10px 0;
     font-size: 20px;
 }
 
 .product>a {
-    font-size: 20px;
-    text-decoration: none;
     color: #137acb;
+    font-size: 20px;
+    text-decoration: none
 }
 
 .product>img {
@@ -205,7 +206,7 @@ header {
 }
 
 .third_bottom_cont {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -236,27 +237,66 @@ header {
     font-size: 10px;
 }
 
+#fourth {
+    padding-top: 50px;
+}
+
 .one,.half {
     border: 1px solid black;
 }
 
 .smart_mobility {
-    margin-top: 50px;
+    margin: 20px 0;
     background-image: url("https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg");
     background-size: cover;
-    height: 500px;
+    background-position: center;
+    min-height: 500px;
+    position: relative;
+}
+
+.backgr_column_app {
+    margin: 20px 0;
+    background-image: linear-gradient(#405468, #293744);
+    min-height: 500px;
 }
 
 .column_app {
-    margin-top: 50px;
-    background-image: url("https://helbiz.com/asset/pages/newhome/images/HelbiZAPP.png");
-    background-size: cover;
-    height: 600px;
+    height: 300px;
 }
 
 .column_find_us {
-    margin-top: 50px;
+    margin: 20px 0;
     background-image: url("https://helbiz.com/asset/pages/newhome/images/Cities-1500.jpg");
     background-size: cover;
-    height: 600px;
+    min-height: 500px;
+}
+
+.smart_mobility_text {
+    position: absolute;
+    padding-right: 10%;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.smart_mobility_text, .column_app_text, .column_find_us_text {
+    text-align: center;
+    color: white;
+}
+
+.column_app_text, .column_find_us_text {
+    padding-top: 40px;
+}
+
+.smart_mobility_text h2, .column_app_text h2, .column_find_us_text h2 {
+    font-size: 35px;
+}
+
+.smart_mobility_text p, .column_app_text p, .column_find_us_text p {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.column_app_text span, .column_find_us_text span {
+    font-size: 20px;
 }
