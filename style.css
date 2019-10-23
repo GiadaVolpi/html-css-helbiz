@@ -378,20 +378,34 @@ footer {
 }
 
 .middle_footer {
-    height: 100px;
     border-top: 1px solid #7f7f7f;
     border-bottom: 1px solid #7f7f7f;
 }
 
-.horizontal_footer {
+.horizontal_social, .horizontal_footer {
     float: left;
     width: 25%;
+    line-height: 100px;
 }
 
 .horizontal_social a i {
-    line-height: 100px;
     font-size: 20px;
-    padding-right: 15px;
+    margin: 40px 12px;
 }
 
-.middle_footer
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom_footer {
+    text-align: center;
+}
+
+.bottom_footer img {
+    margin: 30px auto 100px auto;
+}
+
+.bottom_footer img:first-child {
+    margin-right: 20px;
+}
